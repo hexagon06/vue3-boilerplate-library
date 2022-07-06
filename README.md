@@ -76,7 +76,6 @@ There may be other frameworks to be added later. However, when they are very opi
 - Find a good way to compile and package scss
 - Choose and add a unittest framework
 - See if there is a better way to do things with npx
-- Add Linting
 - Add [.npmrc](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-npm-registry#publishing-a-package-using-a-local-npmrc-file)
 - Move the [`VITE-README`](./VITE-README.md) content to `README.md`
-- workspace file, snippets
+- snippets

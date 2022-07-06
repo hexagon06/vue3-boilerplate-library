@@ -16,6 +16,10 @@
         "singleline": "never",
         "multiline": "never"
       }
+    ],
+    "quotes": [
+      "warn",
+      "single"
     ]
   },
   // required to lint *.vue files
