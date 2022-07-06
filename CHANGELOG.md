@@ -4,7 +4,24 @@ Based on [keepachangelog.com](https://keepachangelog.com/en/1.0.0/)
 
 ## Unversioned
 
-## Added
+## [0.0.3] - 2022-07-06 Starting Storybook
+
+- Initialized Storybook 
+- Ignore Storybook pages from export
+- Support for exporting imported css files
+- Added useage isntructions to the README.md
+
+## Changed
+
+- Updated `vue-tsc` to latest
+
+## removed
+
+- `yarn dev` script and running vite as a site support.
+
+## [0.0.2] - 2022-07-06 Creating Vite Library
+
+### Added
 
 - Ran `yarn create vite` using node `v14.19.3`
 - Changed `vite.config.ts` and `package.json` for library building using [this guide](https://jivancic.com/posts/build-a-component-library.html#components)

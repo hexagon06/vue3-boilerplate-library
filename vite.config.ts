@@ -1,11 +1,12 @@
 import { defineConfig } from 'vite'
 import * as path from 'path';
 import vue from '@vitejs/plugin-vue'
+import css from 'rollup-plugin-import-css'
 
 // https://vitejs.dev/guide/build.html#library-mode
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [vue(), css()],
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/library.ts"),
