@@ -2,6 +2,7 @@
   "recommendations": [
     "vue.volar",
     "kisstkondoros.vscode-codemetrics",
-    "formulahendry.auto-rename-tag"
+    "formulahendry.auto-rename-tag",
+    "dbaeumer.vscode-eslint"
   ]
 }

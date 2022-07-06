@@ -4,6 +4,13 @@ Based on [keepachangelog.com](https://keepachangelog.com/en/1.0.0/)
 
 ## Unversioned
 
+## [0.0.4] - 2022-07-06 Linting  & Formatting
+
+### Added
+
+- linting support with `eslint` and configured it as the default formatter in the workspace
+- added format document on save as
+
 ## [0.0.3] - 2022-07-06 Starting Storybook
 
 - Initialized Storybook 
