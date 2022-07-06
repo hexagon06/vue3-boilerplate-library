@@ -1,6 +1,6 @@
 {
   "name": "vue3-boilerplate-library",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A vue3 library project base. Intended to quickstart your library development without all the configuration hassle.",
   "main": "./dist/vue3-boilerplate-library.umd.js",
   "module": "./dist/vue3-boilerplate-library.es.js",
