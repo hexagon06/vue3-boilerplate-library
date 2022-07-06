@@ -1,0 +1,27 @@
+{
+  "name": "vue3-boilerplate-library",
+  "version": "0.0.0",
+  "description": "A vue3 library project base. Intended to quickstart your library development without all the configuration hassle.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexagon06/vue3-boilerplate-library.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "storybook",
+    "rollup",
+    "typescript",
+    "vite"
+  ],
+  "author": "Jasper Saaltink",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hexagon06/vue3-boilerplate-library/issues"
+  },
+  "homepage": "https://github.com/hexagon06/vue3-boilerplate-library#readme"
+}
