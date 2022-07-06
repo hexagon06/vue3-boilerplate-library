@@ -11,6 +11,10 @@ You could also use [degit](https://github.com/Rich-Harris/degit) instead.
 degit hexagon06/vue3-boilerplate-library
 ```
 
+Then replace all instances of `vue3-boilerplate-library` in the project with your library name.
+
+Then configure your target repository
+
 # Libraries & Dependencies
 
 ## Vite 
@@ -29,6 +33,8 @@ Written using [TypeScript](https://www.typescriptlang.org/)
 
 Packaging components using [Rollup.js](https://rollupjs.org/guide/en/)
 
+Rollup is now configured in the `vite.config.ts`
+
 ## Storybook
 
 Write documentation and create a testable frontend using [Storybook](https://storybook.js.org/)
@@ -43,3 +49,4 @@ There may be other frameworks to be added later. However, when they are very opi
 - Find a good way to compile and package scss
 - Choose and add a unittest framework
 - See if there is a better way to do things with npx
+- Add Linting
