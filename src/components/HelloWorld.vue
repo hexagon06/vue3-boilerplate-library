@@ -9,7 +9,7 @@ const count = ref(0)
 <template>
   <h1>{{ msg }}</h1>
 
-  <p>
+  <p class="accent">
     Recommended IDE setup:
     <a
       href="https://code.visualstudio.com/"
@@ -66,5 +66,17 @@ code {
   padding: 2px 4px;
   border-radius: 4px;
   color: #304455;
+}
+</style>
+
+<style scoped lang="scss">
+// this made it work, but copies all variables for each component this is imported in
+// @import '../styles/variables.scss';
+
+h1 {
+  color: $header;
+  &:hover {
+    color: antiquewhite;
+  }
 }
 </style>
