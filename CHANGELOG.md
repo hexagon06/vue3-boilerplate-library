@@ -4,6 +4,13 @@ Based on [keepachangelog.com](https://keepachangelog.com/en/1.0.0/)
 
 ## Unversioned
 
+## [0.0.6] - 2022-07-25 Building fixes
+
+### Fixed
+
+- moved storybook dependency to dev dependencies because storybook is not needed for the consuming library
+- readded mistakenly removed code for vite build
+
 ## [0.0.5] - 2022-07-25 scss
 
 ### Added
