@@ -1,1 +1,0 @@
-{"version":3,"file":"config.9fc7dd3d.js","sources":["../../node_modules/@storybook/vue3/dist/esm/client/preview/config.js"],"sourcesContent":["export { render, renderToDOM } from './render';\nexport { decorateStory as applyDecorators } from './decorateStory';\nexport var parameters = {\n  framework: 'vue3'\n};"],"names":[],"mappings":"iIAEU,GAAC,GAAa,CACtB,UAAW,MACb"}

@@ -83,6 +83,11 @@ Rollup is now configured in the [`vite.config.ts`](./vite.config.ts)
 
 Write documentation and create a testable frontend using [Storybook](https://storybook.js.org/)
 
+### Chromatic
+
+This library is setup to be published with Chromatic.
+replace the token in the 'chromatic' script in `package.json`
+
 ## Other opinionated frameworks
 
 There may be other frameworks to be added later. However, when they are very opinionated or add a large dependency (like bootstrap or tailwind), they may live on a separate branch.
