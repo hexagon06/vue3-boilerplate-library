@@ -40,7 +40,6 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "@storybook/client-api": "^6.5.9",
     "vue": "^3.2.25"
   },
   "devDependencies": {
@@ -51,6 +50,7 @@
     "@storybook/addon-interactions": "^6.5.9",
     "@storybook/addon-links": "^6.5.9",
     "@storybook/builder-vite": "^0.1.38",
+    "@storybook/client-api": "^6.5.9",
     "@storybook/core-common": "^6.5.9",
     "@storybook/node-logger": "^6.5.9",
     "@storybook/source-loader": "^6.5.9",
