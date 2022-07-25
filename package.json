@@ -37,7 +37,7 @@
     "build": "vite build && vue-tsc --emitDeclarationOnly",
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook --docs -o ./docs"
   },
   "dependencies": {
     "vue": "^3.2.25"
