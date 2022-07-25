@@ -4,6 +4,33 @@ Based on [keepachangelog.com](https://keepachangelog.com/en/1.0.0/)
 
 ## Unversioned
 
+## [0.1.0] - 2022-07-25 
+
+### Added
+
+- story for `HelloWorlds`
+
+### Changed
+
+- Moved Vite Readme to README.md
+- Renamed `HelloWorld2` to `HelloWorlds`
+- Made `HelloWorlds` an example of nesting
+- Colors for `HelloWorld`
+
+## [0.0.6] - 2022-07-25 Building fixes
+
+### Fixed
+
+- moved storybook dependency to dev dependencies because storybook is not needed for the consuming library
+- readded mistakenly removed code for vite build
+
+## [0.0.5] - 2022-07-25 scss
+
+### Added
+
+- scss useage in Storybook
+- css from scss in build result
+
 ## [0.0.4] - 2022-07-06 Linting  & Formatting
 
 ### Added
