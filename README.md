@@ -88,6 +88,8 @@ Write documentation and create a testable frontend using [Storybook](https://sto
 This library is setup to be published with Chromatic.
 replace the token in the 'chromatic' script in `package.json`
 
+for more info look at the [publish Storybook page](https://storybook.js.org/docs/react/sharing/publish-storybook)
+
 ## Other opinionated frameworks
 
 There may be other frameworks to be added later. However, when they are very opinionated or add a large dependency (like bootstrap or tailwind), they may live on a separate branch.
