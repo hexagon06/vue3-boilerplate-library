@@ -98,6 +98,21 @@ to start using this install `firebase-tools` globally
 yarn add -g firebase-tools
 ```
 To get started with your project follow the istructions [here](https://firebase.google.com/docs/functions/get-started#create-a-firebase-project)
+ in short:
+ after creating your project in firebase, run these commands in separate terminals:
+ ```
+ firebase login
+ firebase init firestore
+ ```
+open `firebaseClient.ts` and replace the firebaseConfig object with the object found in your projects settings on firebase at `https://console.firebase.google.com/project/<your project name>/settings/general`
+
+There are some generic implementations for accessing the firestore to help getting started quickly.
+A simple implementation is added as an example and can be viewed using.
+```
+yarn emulate
+yarn dev
+```
+As long as you close the emulator properly with `Ctrl+c` it will persist the data in the local emulator.
 
 ## Other opinionated frameworks
 

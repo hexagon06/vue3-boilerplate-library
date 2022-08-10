@@ -40,7 +40,8 @@
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o ./docs",
-    "chromatic": "npx chromatic --project-token=138c5fda906a"
+    "chromatic": "npx chromatic --project-token=138c5fda906a",
+    "emulate": "firebase emulators:start --import=./saved-data --export-on-exit ./saved-data"
   },
   "dependencies": {
     "firebase": "^9.9.2",
@@ -60,7 +61,7 @@
     "@storybook/source-loader": "^6.5.9",
     "@storybook/testing-library": "^0.0.13",
     "@storybook/vue3": "^6.5.9",
-    "@types/node": "^18.0.3",
+    "@types/node": "^18.6.5",
     "@types/react": "*",
     "@typescript-eslint/eslint-plugin": "^5.30.5",
     "@typescript-eslint/parser": "^5.30.5",
