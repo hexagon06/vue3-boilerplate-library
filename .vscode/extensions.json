@@ -3,6 +3,8 @@
     "vue.volar",
     "kisstkondoros.vscode-codemetrics",
     "formulahendry.auto-rename-tag",
-    "dbaeumer.vscode-eslint"
+    "dbaeumer.vscode-eslint",
+    "bradlc.vscode-tailwindcss",
+    "csstools.postcss"
   ]
 }
