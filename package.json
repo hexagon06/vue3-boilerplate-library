@@ -43,6 +43,7 @@
     "chromatic": "npx chromatic --project-token=138c5fda906a"
   },
   "dependencies": {
+    "firebase": "^9.9.2",
     "vue": "^3.2.25"
   },
   "devDependencies": {

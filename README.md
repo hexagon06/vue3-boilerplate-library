@@ -90,6 +90,15 @@ replace the token in the 'chromatic' script in `package.json`
 
 for more info look at the [publish Storybook page](https://storybook.js.org/docs/react/sharing/publish-storybook)
 
+### Firebase
+
+this library is setup to use Firebase as a backend with an emulator. 
+to start using this install `firebase-tools` globally
+```
+yarn add -g firebase-tools
+```
+To get started with your project follow the istructions [here](https://firebase.google.com/docs/functions/get-started#create-a-firebase-project)
+
 ## Other opinionated frameworks
 
 There may be other frameworks to be added later. However, when they are very opinionated or add a large dependency (like bootstrap or tailwind), they may live on a separate branch.
